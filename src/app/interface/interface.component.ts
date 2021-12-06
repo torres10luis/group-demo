@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./interface.component.css']
 })
 export class InterfaceComponent implements OnInit {
+  router: any;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  btnClick()
+  {
+    this.router.navigate(['/dashboard']);
   }
 
 }

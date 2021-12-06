@@ -15,4 +15,8 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  btnClick()
+  {
+    this.router.navigate(['/interface']);
+  }
 }
